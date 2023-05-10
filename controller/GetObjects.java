@@ -1,4 +1,4 @@
-package com.ananth.k2.controller;
+package main.java.com.ananth.PubEntry.controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
