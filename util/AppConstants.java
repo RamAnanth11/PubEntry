@@ -1,4 +1,4 @@
-package com.ananth.k2.util;
+package com.ananth.PubEntry.util;
 
 public interface AppConstants {
 	String URL = "jdbc:mysql://localhost:3306/k2_ananth";

@@ -1,4 +1,4 @@
-package com.ananth.k2.util;
+package com.ananth.PubEntry.util;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

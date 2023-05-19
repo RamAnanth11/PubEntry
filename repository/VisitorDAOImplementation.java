@@ -1,4 +1,4 @@
-package com.ananth.k2.repository;
+package com.ananth.PubEntry.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,8 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ananth.k2.dto.Visitor;
-import com.ananth.k2.util.ConnectionUtil;
+import com.ananth.PubEntry.dto.Visitor;
+import com.ananth.PubEntry.util.ConnectionUtil;
+
 
 public class VisitorDAOImplementation implements VisitorDAO {
 

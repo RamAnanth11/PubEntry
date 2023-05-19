@@ -1,10 +1,10 @@
-package com.ananth.k2.controller;
+package com.ananth.PubEntry.controller;
 
 import java.util.List;
 import java.util.Scanner;
 
-import com.ananth.k2.dto.Visitor;
-import com.ananth.k2.service.VisitorServiceImplementation;
+import com.ananth.PubEntry.dto.Visitor;
+import com.ananth.PubEntry.service.VisitorServiceImplementation;
 
 public class AdminLogin {
 	static VisitorServiceImplementation service = new VisitorServiceImplementation();

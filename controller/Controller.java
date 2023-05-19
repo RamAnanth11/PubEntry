@@ -1,4 +1,4 @@
-package com.ananth.k2.controller;
+package com.ananth.PubEntry.controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,11 +7,9 @@ import java.sql.Date;
 import java.time.LocalDate;
 import java.time.Period;
 
-import com.ananth.k2.dto.Admin;
-import com.ananth.k2.dto.Visitor;
-import com.ananth.k2.repository.AdminDAO;
-import com.ananth.k2.repository.AdminDAOImplementation;
-import com.ananth.k2.service.VisitorServiceImplementation;
+import com.ananth.PubEntry.dto.Admin;
+import com.ananth.PubEntry.dto.Visitor;
+import com.ananth.PubEntry.service.VisitorServiceImplementation;
 
 public class Controller {
 	static BufferedReader scn = new BufferedReader(new InputStreamReader(System.in));

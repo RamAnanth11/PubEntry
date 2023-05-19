@@ -1,12 +1,10 @@
-package com.ananth.k2.controller;
+package com.ananth.PubEntry.controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
-import com.ananth.k2.dto.Admin;
-import com.ananth.k2.dto.Visitor;
-import com.ananth.k2.service.VisitorServiceImplementation;
+import com.ananth.PubEntry.service.*;
+import com.ananth.PubEntry.dto.*;
 
 public class VisitorLogin {
 	static BufferedReader scn = new BufferedReader(new InputStreamReader(System.in));
@@ -32,26 +30,21 @@ public class VisitorLogin {
 		}
 
 	}
-	
-	public static void adminLogin()
-	{
+
+	public static void adminLogin() {
 		try {
 			System.out.println("Enter your User Name: ");
 			String userName = scn.readLine();
 			System.out.println("Enter your Password: ");
 			String password = scn.readLine();
-			
+
 			Admin a = dao.getAdmin(userName, password);
-			if(a.getId()!=0)
-			{
-				System.out.println("Welcome "+a.getUserName());
-			}
-			else {
+			if (a.getId() != 0) {
+				System.out.println("Welcome " + a.getUserName());
+			} else {
 				System.out.println("Please provide proper info");
 			}
-			
-			
-			
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

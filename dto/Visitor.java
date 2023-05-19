@@ -1,4 +1,4 @@
-package com.ananth.k2.dto;
+package com.ananth.PubEntry.dto;
 
 import java.sql.Date;
 

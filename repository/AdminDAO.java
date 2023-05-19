@@ -1,6 +1,6 @@
-package com.ananth.k2.repository;
+package com.ananth.PubEntry.repository;
 
-import com.ananth.k2.dto.Admin;
+import com.ananth.PubEntry.dto.Admin;
 
 public interface AdminDAO {
 

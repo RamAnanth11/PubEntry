@@ -1,8 +1,9 @@
-package com.ananth.k2.repository;
+package com.ananth.PubEntry.repository;
 
 import java.util.List;
 
-import com.ananth.k2.dto.Visitor;
+import com.ananth.PubEntry.*;
+import com.ananth.PubEntry.dto.Visitor;
 
 public interface VisitorDAO {
 	

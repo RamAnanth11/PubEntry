@@ -1,4 +1,4 @@
-package com.ananth.k2.util;
+package com.ananth.PubEntry.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
